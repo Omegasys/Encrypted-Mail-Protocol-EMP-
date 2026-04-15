@@ -1,0 +1,14 @@
+[node]
+listen_address = "0.0.0.0:9000"
+max_connections = 100
+
+[security]
+require_encryption = true
+require_signature = true
+
+[routing]
+min_hops = 3
+max_hops = 5
+
+[logging]
+level = "info"
